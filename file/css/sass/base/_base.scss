@@ -1,0 +1,171 @@
+//! BG IMAGE
+.bg-banner {
+  background-image: url(/file/image/bg-banner.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  @include media991 {
+    background-size: cover;
+  }
+
+  @include media766{
+    background-position-x: 50%;
+  }
+}
+
+.bg-schedule {
+  // background-image: url(/file/image/bg-schedule.png);
+  background-color:$color-blue-light ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//BG COLOR
+.bg-color-one {}
+
+.bg-color-two {}
+
+.animation-password {
+  animation-name: heartBeat;
+  animation: heartBeat 0.66s alternate;
+  animation-iteration-count: 2;
+}
+
+/*D-FLEX*/
+.flex-row-center {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-sb-center {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-end-md-center {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  @include media991 {
+    justify-content: center;
+  }
+}
+
+.flex-start-sm-colmn {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @include media767 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.flex-end-sm-colmn {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  @include media767 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.flex-centr-lg-colmn {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  @include media991 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.flex-colmn-end-md-cntr {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  @include media991 {
+    align-items: center;
+  }
+}
+
+.flex-sm-center {
+  @include media500 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+.flex-center-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-start-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.dn {
+  display: none;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+// For ie margin
+.ie-mt-2 {
+
+  @media screen and (-ms-high-contrast: active),
+  (-ms-high-contrast: none) {
+    margin-top: 2rem;
+  }
+}

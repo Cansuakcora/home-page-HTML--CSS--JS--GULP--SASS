@@ -1,0 +1,126 @@
+.modal {
+
+    &__item {
+        a {
+            color: $color-black-3;
+            font-size: 18px;
+        }
+    }
+
+    &__dialog {
+        position: relative;
+
+        @include min-media576 {
+            max-width: 600px;
+        }
+    }
+
+    &__content {
+        border-radius: 15px;
+    }
+
+    &__close {
+        padding: 1px 0px !important;
+        background-color: $color-white !important;
+        border-radius: 100%;
+        width: 25px !important;
+        height: 26px !important;
+        margin: 0 !important;
+        opacity: 1 !important;
+        font-weight: 300 !important;
+
+        position: absolute;
+        right: -23px;
+        top: -20px;
+
+        span {
+            font-size: 23px;
+            line-height: 24px;
+            color: $color-red;
+        }
+
+        @include media766 {
+            right: 8px;
+            top: 7px;
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background-color: $color-blue-4;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+        @include media500 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__img {
+            width: 110px;
+            height: 110px;
+            margin-right: 1rem;
+            border-radius: 50%;
+        }
+
+        &__title {
+            font-size: 1.3em;
+            color: $color-orange-2;
+            font-family: 'GraphieBold', sans-serif;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-bottom: .5rem;
+
+            @include media500 {
+                text-align: center;
+                margin-top: .5rem;
+            }
+        }
+
+        &__detail {
+            font-size: .9em;
+            margin-bottom: .8rem;
+            color: $color-black-3;
+
+            @include media500 {
+                text-align: center;
+            }
+
+            span {
+                display: block;
+
+                @include media500 {
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    &__body {
+
+        padding: 1rem 1.5rem;
+
+        &__text {
+            font-size: .9em;
+            margin-bottom: .8rem;
+            color: $color-black-3;
+
+        }
+    }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .modal__close {
+        padding: 2px 4px 4px 3px !important;
+    }
+
+    .modal__close span {
+        font-size: 30px;
+    }
+}

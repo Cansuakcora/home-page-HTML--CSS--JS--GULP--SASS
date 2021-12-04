@@ -1,0 +1,143 @@
+.banner {
+    @include media1400 {
+        font-size: 14px;
+    }
+
+    @include media991 {
+        font-size: 12px;
+    }
+
+    padding: 5em 0 2.5em 0;
+
+    &__next-webinar {
+        font-size: 1.3em;
+        font-family: 'FSAlbertBold', sans-serif;
+    }
+
+    &__title {
+        font-size: 1.8em;
+        font-family: 'GraphieBold', sans-serif;
+        color: $color-orange-2;
+        margin-bottom: .1rem;
+
+        @include media991 {
+            font-size: 2.6em;
+            text-align: center;
+        }
+
+        @include media766 {
+            font-size: 2.3em;
+        }
+    }
+
+    &__subtitle {
+        font-size: 1.8em;
+        font-family: 'GraphieBold', sans-serif;
+        color: $color-black-4;
+
+        @include media991 {
+            text-align: center;
+        }
+    }
+
+    &__date {
+        font-size: 1.17em;
+        color: $color-orange-2;
+
+        @include media991 {
+            text-align: center;
+        }
+    }
+
+    &__date-btns {
+        display: flex;
+        align-items: center;
+        margin-top: 2.5rem;
+
+        @include media991 {
+            justify-content: center;
+        }
+
+        @include media766 {
+            flex-direction: column;
+        }
+    }
+
+    &__date-btn {
+        background-color: $color-yellow-2;
+        width: 100%;
+        max-width: 168px;
+        padding: .4rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-white;
+        font-family: 'GraphieBold';
+        font-size: 18px;
+        cursor: pointer;
+        transform: skew(-12deg);
+
+        sup {
+            margin-right: .4rem;
+        }
+
+        span {
+            transform: skew(12deg);
+        }
+
+        @include media766 {
+            margin: .5rem 0;
+        }
+    }
+
+    &__date-btn--active {
+        background-color: $color-orange-2;
+    }
+
+    &__hr {
+        width: 24px;
+        height: 2px;
+        background-color: $color-yellow-2;
+
+        @include media766 {
+            display: none;
+        }
+    }
+
+    &__left-text {
+        width: 100%;
+        max-width: 560px;
+        margin-top: 2rem;
+
+        @include media-min1400 {
+            max-width: 700px;
+        }
+
+        @include media991 {
+            margin: 2rem auto 1rem;
+            display: flex;
+        }
+    }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+
+    .speakers__title,
+    .btn-banner,
+    .btn-speaker-date,
+    .webinar-info__title,
+    .time-by-city__title,
+    .upcoming-events__title,
+    .teaser__info__title,
+    .schedule__title {
+        font-weight: bold;
+
+    }
+
+    .banner__subtitle,
+    .banner__title {
+        // font-style: italic;
+        font-weight: bold;
+    }
+}

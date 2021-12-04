@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Name | Home</title>
+    <link rel="stylesheet" href="/file/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/dist/file/css/app.min.css">
+</head>
+
+<body>
+
+    <div class="nav_mirror"></div>
+    <header class="header" id="header">
+        <nav class="nav-desktop">
+            <div class="container">
+                <div class="row flex-start-wrap ie-mt-2">
+                    <div class="col-md-2 col-lg-2">
+                        <a href="/"><img src="/file/image/logo-vistream.png" alt="Logo"
+                                class="nav-desktop__logo nav-desktop__logo-left"></a>
+                    </div>
+                    <div class="col-md-8 col-lg-8 ml-xss">
+                        <ul class="nav-desktop__list">
+                            <li class="nav-desktop__list__item"><a href="#welcome" class="nav-desktop__list__link color-menu"
+                                    id="banner">Welcome</a>
+                            </li>
+                            <li class="nav-desktop__list__item"><a href="#speakers" class="nav-desktop__list__link"
+                                    id="sessions-link">Speakers</a></li>
+                            <li class="nav-desktop__list__item"><a href="#teaser" class="nav-desktop__list__link"
+                                    id="overview-link">Teaser</a>
+                            </li>
+                            <li class="nav-desktop__list__item"><a href="#schedule" class="nav-desktop__list__link"
+                                    id="schedule-link">Agenda</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <nav class="nav-mobile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="nav-mobile__logos">
+                            <a href="/"><img src="/file/image/logo-vistream.png" alt="Logo"
+                                    class="nav-mobile__logo nav-mobile__logo-left mr-sm"></a>
+
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="navi-toggle" class="nav-mobile__checkbox" />
+
+                            <label for="navi-toggle" class="nav-mobile__button">
+                                <span class="nav-mobile__icon">
+                                    <span class="nav-mobile__icon-span"> </span>
+                                    <span class="nav-mobile__icon-span"> </span>
+                                    <span class="nav-mobile__icon-span"> </span>
+                                    <span class="nav-mobile__icon-span"> </span>
+                                    <span class="nav-mobile__icon-span"> </span>
+                                    <span class="nav-mobile__icon-span"> </span>
+                                </span>
+                            </label>
+
+                            <div class="nav-mobile__background"></div>
+
+                            <div class="nav-mobile__nav">
+                                <ul class="nav-mobile__list">
+                                    <li class="nav-mobile__item">
+                                        <a href="#welcome" class="nav-mobile__link menuLink">Welcome</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a href="#speakers" class="nav-mobile__link menuLink">Speakers</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a href="#teaser" class="nav-mobile__link menuLink">Teaser</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a href="#schedule" class="nav-mobile__link menuLink">Agenda</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+
+    </header>
+
+    <main class="main">
+
+        <section class="banner bg-banner" id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-7">
+                        <img src="/file/image/banner-left-text.png" class="banner__left-text">
+                        <div class="banner__date-btns">
+                            <p class="banner__date-btn banner__date-btn--active" id="banner_btn1"><span>4<sup>th</sup> November</span></p>
+                            <div class="banner__hr"></div>
+                            <p class="banner__date-btn" id="banner_btn2"><span>9<sup>th</sup> November</span></p>
+                            <div class="banner__hr"></div>
+                            <p class="banner__date-btn" id="banner_btn3"><span>11<sup>th</sup> November </span></p>
+                        </div>
+                        <div></div>
+                        <div id="date1-info">
+                            <h1 class="banner__title mt-md">
+                                Meeting 1/3: 4 November (1 h 30 min)
+                            </h1>
+                            <h5 class="banner__subtitle">
+                                ATTR-CM: Unravelling the story
+                            </h5>
+
+                            <p class="banner__date mb-sm mt-smm">
+                                Timing option 1 (AfME and LatAm): 06:00 EDT / 08:00 BRT / 15:00 GST / 19:00 HKT<br>
+                                Timing option 2 (AfME and Asia): 10:00 EDT / 12:00 BRT / 19:00 GST / 23:00 HKT</p>
+                        </div>
+                        <div class="schedule__table-hide" id="date2-info">
+                            <h1 class="banner__title mt-md">
+                                Meeting 2/3: 9 November (1 h 30 m) 
+                            </h1>
+                            <h5 class="banner__subtitle">
+                                 Presenting through the lens
+                            </h5>
+
+                            <p class="banner__date mb-sm mt-smm">
+                                Timing option 1 (AfME and LatAm): 06:00 EDT / 08:00 BRT / 15:00 GST / 19:00 HKT<br>
+                                Timing option 2 (AfME and Asia): 10:00 EDT / 12:00 BRT / 19:00 GST / 23:00 HKT</p>
+                        </div>
+                        <div class="schedule__table-hide" id="date3-info">
+                            <h1 class="banner__title mt-md">
+                                Meeting 3/3: 11 November (1 h 15 m)
+                            </h1>
+                            <h5 class="banner__subtitle">
+                                The importance of audience interaction
+                            </h5>
+
+                            <p class="banner__date mb-sm mt-smm">
+                                Timing option 1 (AfME and LatAm): 06:00 EDT / 08:00 BRT / 15:00 GST / 19:00 HKT<br>
+                                Timing option 2 (AfME and Asia): 10:00 EDT / 12:00 BRT / 19:00 GST / 23:00 HKT</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-5 flex-colmn-end-md-cntr">
+                        <a href="/register" class="btn-banner-register btn-animation-1 mb-xs">REGISTER</a>
+                        <a href="/login" class="btn-banner-login btn-animation-1">LOGIN</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="webinar-info flex-column-center bg-white" id="welcome">
+            <h1 class="webinar-info__title my-xs">
+                Welcome
+            </h1>
+            <h3 class="webinar-info__subtitle">
+                The virtual speaker training will provide you with the skills needed to deliver core amyloidosis and
+                tafamidis<br> content. Additionally, it will educate you on powerful and effective means of
+                communicating key messages<br> both in person and via virtual delivery and will establish a platform for
+                ongoing learning and networking<br> beyond the live events.
+            </h3>
+        </section>
+
+        <section class="speakers" id="speakers">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 flex-column-center">
+                        <h1 class="speakers__title mb-sm mt-xs">Speakers</h1>
+                        <div class="speakers__buttons mb-lg">
+                            <p href="#" class="btn-speaker-date btn-speaker-date--active"
+                                id="btn-speakers-list-1">
+                                4 November
+                            </p>
+                            <p href="#" class="btn-speaker-date" id="btn-speakers-list-2">
+                                9 November
+                            </p>
+                            <p href="#" class="btn-speaker-date" id="btn-speakers-list-3">
+                                11 November
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 speakers__group" id="speakers-group-1">
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-1.png" alt="speaker" class="speakers__speaker__img ">
+                            <h1 class="speakers__speaker__name">
+                               speaker1-name
+                            </h1>
+                            <h4 class="speakers__speaker__section">
+                               speaker1-country
+                            </h4>
+                            <p class="speakers__speaker__info color-black-3">
+                                <span>speaker-info</span>
+
+                            </p>
+                            <a href="#" class="btn-bio color-white btn-animation-nope" data-toggle="modal"
+                                data-target="#speaker1">
+                                See Bio
+                            </a>
+                        </div>
+
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-2.png" alt="speaker" class="speakers__speaker__img">
+                            <h1 class="speakers__speaker__name">
+                                speaker2-name
+                            </h1>
+                            <h4 class="speakers__speaker__section">
+                                speaker2-country
+                            </h4>
+                            <p class="speakers__speaker__info color-black-3">
+                                <span>speaker-info</span>
+
+                            </p>
+                            <a href="#" data-toggle="modal" data-target="#speaker2"
+                                class="btn-bio color-white btn-animation-nope">See Bio</a>
+                        </div>
+
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-3.png" alt="speaker" class="speakers__speaker__img">
+                            <h1 class="speakers__speaker__name">
+                               speaker3-name
+                            </h1>
+                            <!-- <h4 class="speakers__speaker__section">
+                                Consultant Cardiologist
+                            </h4> -->
+                            <p class="speakers__speaker__info color-black-3">
+                                <!-- <span>Raul Carrea Institute for Neurological, FLENI, Buenos Aires, Argentina </span> -->
+
+                            </p>
+                            <!--  <a href="#" data-toggle="modal" data-target="#speaker3"
+                                class="btn-bio color-white btn-animation-nope">See Bio</a>-->
+                        </div>
+                    </div>
+
+                    <div class="col-12 speakers__group speakers__hide d-none" id="speakers-group-2">
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-1.png" alt="speaker" class="speakers__speaker__img ">
+                            <h1 class="speakers__speaker__name">
+                               speaker4-name
+                            </h1>
+                            <h4 class="speakers__speaker__section">
+                                speaker4-country
+                            </h4>
+                            <p class="speakers__speaker__info color-black-3">
+                                <span>speaker-info</span>
+
+                            </p>
+                            <a href="#" class="btn-bio color-white btn-animation-nope" data-toggle="modal"
+                                data-target="#speaker1">
+                                See Bio
+                            </a>
+                        </div>
+
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-2.png" alt="speaker" class="speakers__speaker__img">
+                            <h1 class="speakers__speaker__name">
+                                speaker5-name
+                            </h1>
+                            <h4 class="speakers__speaker__section">
+                                speaker5-country
+                            </h4>
+                            <p class="speakers__speaker__info color-black-3">
+                                <span>speaker-info</span>
+
+                            </p>
+                            <a href="#" data-toggle="modal" data-target="#speaker2"
+                                class="btn-bio color-white btn-animation-nope">See Bio</a>
+                        </div>
+
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-3.png" alt="speaker" class="speakers__speaker__img">
+                            <h1 class="speakers__speaker__name">
+                                speaker6-name
+                            </h1>
+                            <!-- <h4 class="speakers__speaker__section">
+                                Consultant Cardiologist
+                            </h4> -->
+                            <p class="speakers__speaker__info color-black-3">
+                                <!-- <span>Raul Carrea Institute for Neurological, FLENI, Buenos Aires, Argentina </span> -->
+
+                            </p>
+                            <!--  <a href="#" data-toggle="modal" data-target="#speaker3"
+                                class="btn-bio color-white btn-animation-nope">See Bio</a>-->
+                        </div>
+                    </div>
+
+                    <div class="col-12 speakers__group speakers__hide d-none" id="speakers-group-3">
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-3.png" alt="speaker" class="speakers__speaker__img">
+                            <h1 class="speakers__speaker__name">
+                                speaker7-name
+                            </h1>
+                            <!-- <h4 class="speakers__speaker__section">
+                                Consultant Cardiologist
+                            </h4> -->
+                            <p class="speakers__speaker__info color-black-3">
+                                <!-- <span>Raul Carrea Institute for Neurological, FLENI, Buenos Aires, Argentina </span> -->
+
+                            </p>
+                            <!--  <a href="#" data-toggle="modal" data-target="#speaker3"
+                                class="btn-bio color-white btn-animation-nope">See Bio</a>-->
+                        </div>
+
+                        <div class="speakers__speaker">
+                            <img src="/file/image/img-speaker-3.png" alt="speaker" class="speakers__speaker__img">
+                            <h1 class="speakers__speaker__name">
+                                TBC
+                            </h1>
+                            <h4 class="speakers__speaker__section">
+                                TBC
+                            </h4>
+                            <p class="speakers__speaker__info color-black-3">
+                                <span>TBC</span>
+
+                            </p>
+                              <a href="#" data-toggle="modal" data-target="#speaker4"
+                                class="btn-bio color-white btn-animation-nope">See Bio</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="teaser" id="teaser">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="teaser__title">Pre-meeting webinar</h1>
+                        <!-- <div class="teaser__video" id="teaser-video-1">
+                            <img src="/file/image/teaser-btn.png" class="teaser__btn">
+                        </div> -->
+                        <img src="/file/image/thumbnail.png" class="teaser__thumbnail">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="schedule" id="schedule">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 flex-column-center">
+                        <h1 class="schedule__title mb-sm">Agenda</h1>
+
+                        <div class="schedule__buttons-group">
+                            <p class="btn-speaker-date btn-speaker-date--active m-xxs" id="btn-session-1">
+                               4 November
+                            </p>
+                            <p class="btn-speaker-date m-xxs" id="btn-session-2">
+                                9 November
+                            </p>
+                            <p class="btn-speaker-date m-xxs" id="btn-session-3">
+                                11 November
+                            </p>
+
+                        </div>
+
+                        <div class="schedule__scroll my-md">
+                            <div class="schedule__table mb-xs" id="schedule-table-1">
+
+                                <div class="schedule__table__head">
+                                    <div class="schedule__table__head__row">
+                                        <div class="schedule__table__head__col">
+                                            Time
+                                        </div>
+                                        <div class="schedule__table__head__col">
+                                            Session Title
+                                        </div>
+                                        <div class="schedule__table__head__col">
+                                            Presenter
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="schedule__table__body">
+                                    <div class="schedule__table__body__row" style="padding: 0;">
+                                        <div class="schedule__table__body__col schedule__table-green">
+                                            Meeting 1/3: ATTR-CM: Unravelling the story (1 h 30 min)
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            5 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Introduction to the course: Meeting 1
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            35 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Giving a background on ATTR-CM:<br> What does the audience need to know?
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            25 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Discussing treatment for ATTR-CM: How to <br>convey clinical trial data in an impactful way
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            25 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Continuing learning: Actions for meeting 2
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="schedule__table schedule__table-hide mb-xs" id="schedule-table-2">
+
+                                <div class="schedule__table__head">
+                                    <div class="schedule__table__head__row">
+                                        <div class="schedule__table__head__col">
+                                            Time
+                                        </div>
+                                        <div class="schedule__table__head__col">
+                                            Session Title
+                                        </div>
+                                        <div class="schedule__table__head__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="schedule__table__body">
+                                    <div class="schedule__table__body__row" style="padding: 0;">
+                                        <div class="schedule__table__body__col schedule__table-green">
+                                            Meeting 2/3: Presenting through the lens (1 h 30 min)
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            5 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Introduction to the course: Meeting 2
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            35 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Delivering in a virtual world and beyond
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            50 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Breakout groups: Practice presentations
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            5 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Continuing learning: Actions for meeting 3
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="schedule__table schedule__table-hide mb-xs" id="schedule-table-3">
+
+                                <div class="schedule__table__head">
+                                    <div class="schedule__table__head__row">
+                                        <div class="schedule__table__head__col">
+                                            Time
+                                        </div>
+                                        <div class="schedule__table__head__col">
+                                            Session Title
+                                        </div>
+                                        <div class="schedule__table__head__col">
+                                            Presenter
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="schedule__table__body">
+                                    <div class="schedule__table__body__row" style="padding: 0;">
+                                        <div class="schedule__table__body__col schedule__table-green">
+                                            Meeting 2/3: Presenting through the lens (1 h 30 min)
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            5 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Introduction to the course: Meeting 3
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            60 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Handling questions effectively
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+
+                                    <div class="schedule__table__body__row">
+                                        <div class="schedule__table__body__col">
+                                            10 minutes
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Course conclusions
+                                        </div>
+                                        <div class="schedule__table__body__col">
+                                            Lorem ipsum 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- [ MODAL SPEAKER 1] -->
+    <div class="modal fade" id="speaker1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal__dialog">
+            <div class="modal-content modal__content">
+                <div class="modal-header modal__header">
+                    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <img src="/file/image/img-speaker-1.png" alt="Speaker" class="modal__header__img">
+                    <div class="modal__header__info">
+                        <h2 class="modal__header__title">
+                            speaker1-name
+                        </h2>
+                        <p class="modal__header__detail">
+                            <span>speaker1-country</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-body modal__body">
+                    <p class="modal__body__text">
+                       speaker-bio
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ MODAL SPEAKER 1] -->
+
+    <!-- [ MODAL SPEAKER 2] -->
+    <div class="modal fade" id="speaker2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal__dialog">
+            <div class="modal-content modal__content">
+                <div class="modal-header modal__header">
+                    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <img src="/file/image/img-speaker-2.png" alt="Speaker" class="modal__header__img">
+                    <div class="modal__header__info">
+                        <h2 class="modal__header__title">
+                            speaker2-name
+                        </h2>
+                        <p class="modal__header__detail">
+                            speaker2-country
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-body modal__body">
+                    <p class="modal__body__text">
+                    speaker-bio
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ MODAL SPEAKER 2] -->
+
+    <!-- [ MODAL SPEAKER 3] -->
+    <div class="modal fade" id="speaker3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal__dialog">
+            <div class="modal-content modal__content">
+                <div class="modal-header modal__header">
+                    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <img src="/file/image/img-speaker-1.png" alt="Speaker" class="modal__header__img">
+                    <div class="modal__header__info">
+                        <h2 class="modal__header__title">
+                            speaker3-name
+                        </h2>
+                        <p class="modal__header__detail">
+                            speaker3-country
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-body modal__body">
+                    <p class="modal__body__text">
+                        speaker-bio
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ MODAL SPEAKER 3] -->
+
+    <!-- [ MODAL SPEAKER 4] -->
+    <div class="modal fade" id="speaker4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal__dialog">
+            <div class="modal-content modal__content">
+                <div class="modal-header modal__header">
+                    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <img src="/file/image/img-speaker-3.png" alt="Speaker" class="modal__header__img">
+                    <div class="modal__header__info">
+                        <h2 class="modal__header__title">
+                            TBC
+                        </h2>
+                        <p class="modal__header__detail">
+                            TBC
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-body modal__body">
+                    <p class="modal__body__text">
+                        TBC
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ MODAL SPEAKER 4] -->
+
+    <footer class="footer bg-white flex-row-center">
+        <div class="container">
+            <div class="row ie-mt-2">
+                <div class="col-md-3 col-sm-12 flex-start-sm-colmn">
+                    <img src="/file/image/footer-logo.png" alt="logo" class="footer__img">
+                </div>
+                <div class="col-md-6 col-sm-12 flex-start-sm-colmn">
+                    <p class="footer__info">
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-12 flex-end-sm-colmn">
+                    <p class="footer__code">
+                        GCMA CODE
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/file/js/jquery-3.6.0.min.js"></script>
+    <script src="/file/js/bootstrap.min.js"></script>
+    <script src="/file/js/app/main.js"></script>
+</body>
+
+</html>

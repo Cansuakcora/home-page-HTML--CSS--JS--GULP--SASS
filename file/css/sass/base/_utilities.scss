@@ -1,0 +1,357 @@
+//! PADDING 
+.pt-sm {
+    padding-top: 2rem;
+}
+
+.pt-md {
+    padding-top: 3rem;
+}
+
+.pt-lg {
+    padding-top: 4rem;
+}
+
+.pt-xl {
+    padding-top: 5rem;
+}
+
+.pb-sm {
+    padding-bottom: 2rem;
+}
+
+.pb-md {
+    padding-bottom: 3rem;
+}
+
+.pb-lg {
+    padding-bottom: 4rem;
+}
+
+.pb-xl {
+    padding-bottom: 5rem;
+}
+
+.p-sm {
+    padding: 2rem;
+}
+
+.p-md {
+    padding: 3rem;
+}
+
+.p-lg {
+    padding: 4rem;
+}
+
+.p-xl {
+    padding: 5rem;
+}
+
+//! MARGIN
+
+// Margin top
+.mt-xxs {
+    margin-top: .5rem !important;
+}
+
+.mt-xs {
+    margin-top: 1rem !important;
+}
+
+.mt-smm {
+    margin-top: 1.5rem !important;
+}
+
+.mt-sm {
+    margin-top: 2rem !important;
+}
+
+.mt-md {
+    margin-top: 3rem !important;
+}
+
+.mt-lg {
+    margin-top: 4rem !important;
+}
+
+.mt-xl {
+    margin-top: 5rem !important;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+// Margin left
+.ml-xxs {
+    margin-left: .5rem !important;
+}
+
+.ml-xs {
+    margin-left: 1rem !important;
+}
+
+.ml-xss {
+    margin-left: 1.5rem !important;
+}
+
+.ml-sm {
+    margin-left: 2rem !important;
+}
+
+.ml-md {
+    margin-left: 3rem !important;
+}
+
+.ml-lg {
+    margin-left: 4rem !important;
+}
+
+.ml-xl {
+    margin-left: 5rem !important;
+}
+
+// Margin bottom
+.mb-xxs {
+    margin-bottom: .5rem !important;
+}
+
+.mb-xs {
+    margin-bottom: 1rem !important;
+}
+
+.mb-sm {
+    margin-bottom: 2rem !important;
+}
+
+.mb-md {
+    margin-bottom: 3rem !important;
+}
+
+.mb-lg {
+    margin-bottom: 4rem !important;
+}
+
+.mb-xl {
+    margin-bottom: 5rem !important;
+}
+
+// Margin right
+.mr-xxs {
+    margin-right: .5rem !important;
+}
+
+.mr-xs {
+    margin-right: 1rem !important;
+}
+
+.mr-sm {
+    margin-right: 2rem !important;
+}
+
+.mr-md {
+    margin-right: 3rem !important;
+}
+
+.mr-lg {
+    margin-right: 4rem !important;
+}
+
+.mr-xl {
+    margin-right: 5rem !important;
+}
+
+// Margin top and bottom
+.my-xxs {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+}
+
+.my-xs {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.my-sm {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.my-md {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.my-lg {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.my-xl {
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}
+
+// Margin left and right
+.mx-xxs {
+    margin-left: .5rem !important;
+    margin-right: .5rem !important;
+}
+
+.mx-xs {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.mx-sm {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+}
+
+.mx-md {
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+}
+
+.mx-lg {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+}
+
+.mx-xl {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+}
+
+// Margin all
+.m-xxs {
+    margin: .5rem !important;
+}
+
+.m-xs {
+    margin: 1rem !important;
+}
+
+.m-sm {
+    margin: 2rem !important;
+}
+
+.m-md {
+    margin: 3rem !important;
+}
+
+.m-lg {
+    margin: 4rem !important;
+}
+
+.m-xl {
+    margin: 5rem !important;
+}
+
+
+//! COLORS
+.color-menu {
+    color:$color-orange;
+}
+
+.color-white {
+    color: $color-white;
+
+    &:hover {
+        color: $color-white;
+    }
+}
+
+.color-navy-blue {
+    color: $color-navy-blue;
+
+    &:hover {
+        color: $color-navy-blue;
+    }
+}
+
+.color-navy-blue-2 {
+    color: $color-navy-blue-2;
+
+    &:hover {
+        color: $color-navy-blue-2;
+    }
+}
+
+.color-blue {
+    color: $color-blue;
+
+    &:hover {
+        color: $color-blue;
+    }
+}
+
+.color-blue-2 {
+    color: $color-blue-2;
+
+    &:hover {
+        color: $color-blue-2;
+    }
+}
+
+.color-black-3 {
+    color: $color-black-3;
+
+    &:hover {
+        color: $color-black-3;
+    }
+}
+
+//! BG COLOR
+.bg-white {
+    background-color: $color-white;
+}
+
+.bg-navy-blue {
+    background-color: $color-navy-blue;
+}
+
+.bg-navy-blue-2 {
+    background-color: $color-navy-blue-2;
+}
+
+.bg-yellow-lg {
+    background: linear-gradient(180deg, rgba(255, 205, 44, 1) 0%, rgba(255, 148, 10, 1) 100%);
+}
+
+.bg-orange-lg {
+    background: $color-orange;
+}
+
+.bg-red-lg {
+    background: $color-red;
+}
+
+.bg-blue-light {
+    background-color: $color-blue-light;
+}
+
+.bg-blue-light-2 {
+    background-color: $color-blue-light-2;
+}
+
+.bg-blue {
+    background-color: $color-blue;
+}
+
+.bg-gray-light-2 {
+    background-color: $color-gray-light-2;
+}
+
+//! BORDER BUTTONS
+.border-btn-navyblue {
+    border: 2px solid $color-navy-blue;
+}
+
+.border-btn-white {
+    border: 2px solid $color-white;
+}
+
+.border-btn-blue {
+    border: 2px solid $color-blue;
+}

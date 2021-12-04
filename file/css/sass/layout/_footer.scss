@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    min-height: 100px;
+    border-top: 1px solid rgba($color-gray-light, 0.30);
+
+    @include media766{
+        padding: 1.5rem;
+    }
+
+    &__img {
+        width:100%;
+        max-width: 130px;
+    }
+
+    &__info {
+        font-size: 1em;
+        color: $color-black-3;
+
+        @include media767 {
+            text-align: center;
+            margin: 1rem 0;
+        }
+    }
+
+    &__code {
+        font-size: 14px;
+        color: $color-black-3;
+        text-align: right;
+
+        @include media767 {
+            text-align: center;
+        }
+    }
+
+}

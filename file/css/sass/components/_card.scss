@@ -1,0 +1,75 @@
+.card-thakyou {
+    max-width: 440px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #00000024;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+
+    @include media1600 {
+        font-size: 14px;
+        padding: 1.5rem;
+        max-width: 440px;
+    }
+
+    &__icon {
+        width: 72px;
+        height: 72px;
+        font-size: 2.5em;
+        color: $color-white;
+        border-radius: 100%;
+    }
+
+    &__title {
+        font-size: 1.6em;
+        font-family: 'GraphieBold', sans-serif;
+        margin: 0.8rem 0 1rem 0;
+        text-align: center;
+        color: $color-orange;
+    }
+
+    &__desciription {
+        font-size: 1.25em;
+        font-family: "FSAlbertRegular", sans-serif;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    &__btn-pst {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 335px;
+
+        @include media766{
+            flex-direction: column;
+        }
+    }
+
+    &__date {
+        color: $color-black-3;
+        font-family: 'GraphieBold', sans-serif;
+        font-size: 19px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 340px;
+        margin-top: 1.5rem;
+    }
+}
+
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .card-time {
+        max-width: 365px;
+    }
+}
